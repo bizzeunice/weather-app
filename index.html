@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    
+  
+    <main>
+      <section id="home">
+        <section class="li" id="weather">
+            <h2>Weather for <span id="city"></span></h2>
+            <div id="weather-info">
+              <img id="weather-icon" src="" alt="Weather Icon">
+                <div id="temperature"></div>
+                <div id="condition"></div>
+                <div id="humidity"></div>
+                
+              <p id="location-info">Latitude: <span id="latitude"></span>, Longitude: <span id="longitude"></span></p>
+            </div>
+          
+            <button id="search-button" style="display: none;">Search</button>
+            <input type="text" id="city-input" placeholder="Enter a city">
+        </section>
+        <section class='as' id="location">
+            <h2>Your Location</h2>
+           
+            <button id="location-button">Get Weather</button>
+        </section>
+    </section>
+    </main>
+    <audio id="audio" src="click.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
